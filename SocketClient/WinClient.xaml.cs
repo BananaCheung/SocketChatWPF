@@ -8,13 +8,13 @@ using System.Windows;
 namespace SocketClient
 {
     /// <summary>
-    ///     MainWindow.xaml 的交互逻辑
+    ///     WinClient.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class WinClient : Window
     {
-        List<IPAddress> _ipAddresses = new List<IPAddress>();
+        private readonly List<IPAddress> _ipAddresses = new List<IPAddress>();
 
-        public MainWindow()
+        public WinClient()
         {
             InitializeComponent();
         }
@@ -49,6 +49,11 @@ namespace SocketClient
             }
         }
 
-       
+        private void SendBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+
+            MsgTextBox.Clear();
+        }
     }
 }

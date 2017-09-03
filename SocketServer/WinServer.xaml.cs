@@ -46,5 +46,13 @@ namespace SocketServer
                 _ipAddresses.AddRange(ips);
             }
         }
+
+        private void SendBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+
+
+            MsgTextBox.Clear();
+        }
     }
 }

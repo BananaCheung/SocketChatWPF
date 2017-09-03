@@ -68,6 +68,7 @@
                 <Button
                     Name="StartServerBtn"
                     Grid.Column="1"
+                    Width="60"
                     Margin="3"
                     Padding="5"
                     Content=" Start&#13;Server" />
@@ -87,8 +88,8 @@
         <GroupBox Grid.Row="2" Header="Send">
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="181*" />
-                    <ColumnDefinition Width="31*" />
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
                 <StackPanel>
 
@@ -105,7 +106,9 @@
                 <Button
                     Name="SendBtn"
                     Grid.Column="1"
-                    Margin="3">
+                    Width="60"
+                    Margin="3"
+                    Click="SendBtn_Click">
                     Send
                 </Button>
             </Grid>
