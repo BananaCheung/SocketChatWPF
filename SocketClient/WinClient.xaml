@@ -92,9 +92,7 @@
                             Name="MsgTextBox"
                             Height="50"
                             Margin="3"
-                            TextWrapping="Wrap">
-                            bala bala 1..............bala bala 2..............bala bala 3..............bala bala 4..............bala bala 5..............bala bala 6..............
-                        </TextBox>
+                            TextWrapping="Wrap" />
                     </DockPanel>
                 </StackPanel>
                 <Button
